@@ -1,0 +1,8 @@
+/tmp/log/ays/*.log {
+    missingok
+    notifempty
+    copytruncate
+    daily
+    dateext
+    rotate 10
+}

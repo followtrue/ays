@@ -1,0 +1,14 @@
+{
+  "watches":[
+    {
+      "type": "key",
+      "key": "ays_node_list",
+      "handler_type": "http",
+      "http_handler_config": {
+        "path":"http://ays_ip:ays_port/ays/v1/notice/node_list_change",
+        "method": "GET",
+        "timeout": "10s"
+      }
+    }
+  ]
+}
