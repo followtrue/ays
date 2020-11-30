@@ -5,8 +5,8 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/go-xorm/core"
 	"github.com/go-xorm/xorm"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/config"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
+	"ays/src/modules/config"
+	"ays/src/modules/logger"
 	"strings"
 	"time"
 )

@@ -3,13 +3,13 @@ package job
 import (
 	"encoding/json"
 	"errors"
-	"gitlab.keda-digital.com/kedadigital/ays/src/models"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/dispatch"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/job_log"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/tools"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/user"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/app"
+	"ays/src/models"
+	"ays/src/modules/dispatch"
+	"ays/src/modules/job_log"
+	"ays/src/modules/logger"
+	"ays/src/modules/tools"
+	"ays/src/modules/user"
+	"ays/src/modules/app"
 )
 
 const(

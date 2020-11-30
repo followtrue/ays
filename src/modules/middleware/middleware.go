@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"github.com/gin-gonic/gin"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/user"
+	"ays/src/modules/user"
 	"net/http"
 )
 

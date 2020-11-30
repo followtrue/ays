@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"gitlab.keda-digital.com/kedadigital/ays/src/libs/constant"
+	"ays/src/libs/constant"
 	"io"
 	"io/ioutil"
 	"net"

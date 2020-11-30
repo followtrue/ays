@@ -3,9 +3,9 @@ package register
 import (
 	"encoding/json"
 	"errors"
-	"gitlab.keda-digital.com/kedadigital/ays/src/models"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/consul"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
+	"ays/src/models"
+	"ays/src/modules/consul"
+	"ays/src/modules/logger"
 )
 
 const (

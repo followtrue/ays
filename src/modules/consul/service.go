@@ -3,8 +3,8 @@ package consul
 import (
 	"fmt"
 	"github.com/hashicorp/consul/api"
-	"gitlab.keda-digital.com/kedadigital/ays/src/models"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
+	"ays/src/models"
+	"ays/src/modules/logger"
 	"strconv"
 	"time"
 )

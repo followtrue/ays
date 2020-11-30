@@ -4,7 +4,7 @@ import (
 	"fmt"
 	_ "github.com/go-xorm/xorm"
 	"github.com/sony/sonyflake"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
+	"ays/src/modules/logger"
 	"time"
 )
 

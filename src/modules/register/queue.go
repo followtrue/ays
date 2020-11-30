@@ -3,8 +3,8 @@ package register
 import (
 	"encoding/json"
 	"fmt"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/consul"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
+	"ays/src/modules/consul"
+	"ays/src/modules/logger"
 )
 
 type Queue struct {

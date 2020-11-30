@@ -2,10 +2,10 @@ package app
 
 import (
 	"fmt"
-	"gitlab.keda-digital.com/kedadigital/ays/src/models"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/config"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/consul"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/tools"
+	"ays/src/models"
+	"ays/src/modules/config"
+	"ays/src/modules/consul"
+	"ays/src/modules/tools"
 	"io/ioutil"
 	"os"
 	"path"

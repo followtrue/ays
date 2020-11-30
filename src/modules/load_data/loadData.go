@@ -1,9 +1,9 @@
 package load_data
 
 import (
-	"gitlab.keda-digital.com/kedadigital/ays/src/models"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/consul"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/register"
+	"ays/src/models"
+	"ays/src/modules/consul"
+	"ays/src/modules/register"
 )
 
 func LoadData()  {

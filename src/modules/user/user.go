@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/mikemintang/go-curl"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/app"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
+	"ays/src/modules/app"
+	"ays/src/modules/logger"
 	"strconv"
 )
 

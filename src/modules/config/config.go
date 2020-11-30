@@ -86,7 +86,7 @@ func loadFile(EnvDir string) error {
 	goPath := viper.GetString("GOPATH")
 	goPathMul := strings.Split(goPath, ":")
 	for _, goPathSingle := range goPathMul {
-		viper.AddConfigPath(filepath.Join(goPathSingle, "src/gitlab.keda-digital.com/kedadigital/ays/config/env"))
+		viper.AddConfigPath(filepath.Join(goPathSingle, "src/ays/config/env"))
 	}
 	viper.AddConfigPath(EnvDir)
 	viper.SetConfigName("env")

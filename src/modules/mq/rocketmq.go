@@ -2,11 +2,11 @@ package mq
 
 import (
 	"github.com/apache/rocketmq-client-go/core"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/app"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/consul"
+	"ays/src/modules/app"
+	"ays/src/modules/consul"
 	"fmt"
 	"errors"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
+	"ays/src/modules/logger"
 	"strconv"
 	"time"
 	"hash/crc32"

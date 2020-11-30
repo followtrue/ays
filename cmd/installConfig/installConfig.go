@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"gitlab.keda-digital.com/kedadigital/ays/src/libs/env"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/tools"
+	"ays/src/libs/env"
+	"ays/src/modules/tools"
 	"gopkg.in/alecthomas/kingpin.v2"
 	"io/ioutil"
 	"os"

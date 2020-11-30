@@ -2,9 +2,9 @@ package index
 
 import (
 	"github.com/gin-gonic/gin"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/job_log"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/register"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/tools"
+	"ays/src/modules/job_log"
+	"ays/src/modules/register"
+	"ays/src/modules/tools"
 	"time"
 )
 

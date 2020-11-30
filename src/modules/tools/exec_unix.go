@@ -3,7 +3,7 @@ package tools
 import (
 	"errors"
 	"fmt"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/graceful"
+	"ays/src/modules/graceful"
 	"io/ioutil"
 	"os"
 	"os/exec"

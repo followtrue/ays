@@ -3,9 +3,9 @@ package client
 import (
 	"errors"
 	"fmt"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/rpc/grpcpool"
-	pb "gitlab.keda-digital.com/kedadigital/ays/src/modules/rpc/proto"
+	"ays/src/modules/logger"
+	"ays/src/modules/rpc/grpcpool"
+	pb "ays/src/modules/rpc/proto"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

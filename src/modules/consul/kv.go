@@ -3,7 +3,7 @@ package consul
 import (
 	"encoding/json"
 	"github.com/hashicorp/consul/api"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
+	"ays/src/modules/logger"
 )
 
 func KvSetObj(key string, obj interface{}) (bool, error) {

@@ -3,9 +3,9 @@ package ays_run
 import (
 	"errors"
 	"github.com/mikemintang/go-curl"
-	"gitlab.keda-digital.com/kedadigital/ays/src/models"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/graceful"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
+	"ays/src/models"
+	"ays/src/modules/graceful"
+	"ays/src/modules/logger"
 )
 
 

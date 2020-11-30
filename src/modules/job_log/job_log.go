@@ -1,10 +1,10 @@
 package job_log
 
 import (
-	"gitlab.keda-digital.com/kedadigital/ays/src/models"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/tools"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/register"
+	"ays/src/models"
+	"ays/src/modules/logger"
+	"ays/src/modules/tools"
+	"ays/src/modules/register"
 	"strconv"
 	"time"
 )

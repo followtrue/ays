@@ -1,7 +1,7 @@
 package user_job
 
 import (
-	"gitlab.keda-digital.com/kedadigital/ays/src/models"
+	"ays/src/models"
 )
 
 // 创建负责人与任务关联关系

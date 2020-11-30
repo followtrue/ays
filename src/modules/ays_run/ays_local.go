@@ -3,9 +3,9 @@ package ays_run
 import (
 	"errors"
 	"fmt"
-	"gitlab.keda-digital.com/kedadigital/ays/src/models"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/tools"
+	"ays/src/models"
+	"ays/src/modules/logger"
+	"ays/src/modules/tools"
 	"golang.org/x/net/context"
 )
 

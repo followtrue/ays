@@ -6,7 +6,7 @@ import (
 	"github.com/mikemintang/go-curl"
 	"path/filepath"
 	"time"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/config"
+	"ays/src/modules/config"
 )
 
 var (

@@ -2,11 +2,11 @@ package queue
 
 import (
 	"encoding/json"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/consul"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/rpc/client"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/rpc/proto"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/tools"
+	"ays/src/modules/consul"
+	"ays/src/modules/logger"
+	"ays/src/modules/rpc/client"
+	"ays/src/modules/rpc/proto"
+	"ays/src/modules/tools"
 	"math/rand"
 )
 

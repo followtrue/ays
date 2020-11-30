@@ -4,15 +4,15 @@ import (
 	"encoding/json"
 	"github.com/gin-gonic/gin"
 	"github.com/mikemintang/go-curl"
-	"gitlab.keda-digital.com/kedadigital/ays/src/models"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/queue"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/register"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/tools"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/user"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/user_job"
+	"ays/src/models"
+	"ays/src/modules/logger"
+	"ays/src/modules/queue"
+	"ays/src/modules/register"
+	"ays/src/modules/tools"
+	"ays/src/modules/user"
+	"ays/src/modules/user_job"
 	"strconv"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/app"
+	"ays/src/modules/app"
 
 )
 

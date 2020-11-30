@@ -1,11 +1,11 @@
 package server
 
 import (
-	"gitlab.keda-digital.com/kedadigital/ays/src/libs/constant"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/listen"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
-	pb "gitlab.keda-digital.com/kedadigital/ays/src/modules/rpc/proto"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/tools"
+	"ays/src/libs/constant"
+	"ays/src/modules/listen"
+	"ays/src/modules/logger"
+	pb "ays/src/modules/rpc/proto"
+	"ays/src/modules/tools"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"

@@ -3,10 +3,10 @@ package listen
 import (
 	"encoding/json"
 	"github.com/apache/rocketmq-client-go/core"
-	"gitlab.keda-digital.com/kedadigital/ays/src/models"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/dispatch"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/mq"
+	"ays/src/models"
+	"ays/src/modules/dispatch"
+	"ays/src/modules/logger"
+	"ays/src/modules/mq"
 )
 
 

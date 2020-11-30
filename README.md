@@ -38,7 +38,7 @@ sed -i 's/package main/package env/g' src/libs/env/bindata.go
 （1）本地有go环境，在项目根目录下执行
 make
 （2）使用docker
-docker run -it --rm -v ${ays_path}:/go/src/gitlab.keda-digital.com/kedadigital/ays golang /bin/bash /go/src/gitlab.keda-digital.com/kedadigital/ays/make.sh
+docker run -it --rm -v ${ays_path}:/go/src/ays golang /bin/bash /go/src/ays/make.sh
 ${ays_path} 指ays项目根目录
 # 将会在{项目根目录}/cmd/bin/目录下生成各个环境打包文件
 ```

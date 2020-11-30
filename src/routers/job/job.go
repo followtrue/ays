@@ -2,10 +2,10 @@ package job
 
 import (
 	"github.com/gin-gonic/gin"
-	"gitlab.keda-digital.com/kedadigital/ays/src/models"
-	jobModules "gitlab.keda-digital.com/kedadigital/ays/src/modules/job"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/tools"
+	"ays/src/models"
+	jobModules "ays/src/modules/job"
+	"ays/src/modules/logger"
+	"ays/src/modules/tools"
 	"strings"
 )
 

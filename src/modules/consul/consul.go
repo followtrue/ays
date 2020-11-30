@@ -2,8 +2,8 @@ package consul
 
 import (
 	"github.com/hashicorp/consul/api"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/config"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
+	"ays/src/modules/config"
+	"ays/src/modules/logger"
 	"os"
 	"strconv"
 )

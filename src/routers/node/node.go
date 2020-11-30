@@ -2,10 +2,10 @@ package node
 
 import (
 	"github.com/gin-gonic/gin"
-	"gitlab.keda-digital.com/kedadigital/ays/src/models"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/register"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/tools"
+	"ays/src/models"
+	"ays/src/modules/logger"
+	"ays/src/modules/register"
+	"ays/src/modules/tools"
 	"strconv"
 )
 

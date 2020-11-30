@@ -1,10 +1,10 @@
 package ays_exec
 
 import (
-	"gitlab.keda-digital.com/kedadigital/ays/src/models"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/ays_run"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/job_log"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
+	"ays/src/models"
+	"ays/src/modules/ays_run"
+	"ays/src/modules/job_log"
+	"ays/src/modules/logger"
 	"strconv"
 	"time"
 )

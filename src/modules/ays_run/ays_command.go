@@ -3,10 +3,10 @@ package ays_run
 import (
 	"errors"
 	"fmt"
-	"gitlab.keda-digital.com/kedadigital/ays/src/models"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/logger"
-	"gitlab.keda-digital.com/kedadigital/ays/src/modules/rpc/client"
-	jobPb "gitlab.keda-digital.com/kedadigital/ays/src/modules/rpc/proto"
+	"ays/src/models"
+	"ays/src/modules/logger"
+	"ays/src/modules/rpc/client"
+	jobPb "ays/src/modules/rpc/proto"
 )
 
 func CommandJob(jobDetail models.Job, ip string, port int) (result string, err error) {
